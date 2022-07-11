@@ -8,10 +8,53 @@
     },
 
     {
+        "model": "cars_and_brands.Brand",
+        "pk": 2,
+        "fields": {
+            "name":"Toyota"
+        }
+    },
+
+    {
+        "model": "cars_and_brands.Brand",
+        "pk": 3,
+        "fields": {
+            "name":"Ford"
+        }
+    },
+
+    {
         "model": "cars_and_brands.Car",
         "pk": 1,
         "fields": {
             "name":"Civic",
+            "brand":"1"
+        }
+    },
+
+    {
+        "model": "cars_and_brands.Car",
+        "pk": 2,
+        "fields": {
+            "name":"Corolla",
+            "brand":"2"
+        }
+    },
+
+    {
+        "model": "cars_and_brands.Car",
+        "pk": 3,
+        "fields": {
+            "name":"Focus",
+            "brand":"3"
+        }
+    },
+
+    {
+        "model": "cars_and_brands.Car",
+        "pk": 4,
+        "fields": {
+            "name":"Accord",
             "brand":"1"
         }
     }

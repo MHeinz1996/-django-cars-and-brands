@@ -6,6 +6,10 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 </head>
 <body>
-   <h1>Car Shop</h1>
+   <ul>
+        {% for brand in data %}
+        <li>{{brand.name}}</li>
+        {% endfor %}
+   </ul> 
 </body>
 </html>
