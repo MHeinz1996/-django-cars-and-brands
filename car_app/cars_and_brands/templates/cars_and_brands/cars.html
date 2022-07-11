@@ -7,12 +7,13 @@
 </head>
 <body>
    <ul>
-        {% for brand in data %}
-        <li><a href="{{brand.id}}/">{{brand.name}}</a></li>
+        {% for car in data %}
+        <li><a href="{{car.id}}">{{car.name}}</a></li>
         {% endfor %}
    </ul> 
 
    <!-- Add a button that navigates to 'new/' -->
    <a href="#"><button>New</button></a>
+   <!-- Add a button that navigates to '<int:car_id>/' -->
 </body>
 </html>
