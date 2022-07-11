@@ -57,5 +57,23 @@
             "name":"Accord",
             "brand":"1"
         }
+    },
+    
+    {
+        "model": "cars_and_brands.Car",
+        "pk": 5,
+        "fields": {
+            "name":"Camry",
+            "brand":"2"
+        }
+    },
+
+    {
+        "model": "cars_and_brands.Car",
+        "pk": 6,
+        "fields": {
+            "name":"Fushion",
+            "brand":"3"
+        }
     }
 ]
